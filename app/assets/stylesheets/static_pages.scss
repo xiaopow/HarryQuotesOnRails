@@ -1,3 +1,62 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container {
+  background: url("http://i.imgur.com/r4RFQEM.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+#submit {
+  height: 26px;
+  padding: 3px 12px;
+}
+
+#submit-quote {
+  color: #6d6c6c;
+}
+
+.submit-box {
+  margin-top: 10px;
+}
+
+.quote-box {
+  margin-top: 10vh;
+  margin-left: 10vw;
+}
+
+#astro {
+  margin-left: 60vw;
+}
+
+#quote {
+  font-family: 'Press Start 2P';
+  min-height: 50px;
+  color: #eee;
+}
+
+#astro:hover {
+  cursor: pointer;
+}
+
+/*Harrynaut animations*/
+
+.dontDisplay {
+  display: none;
+}
+
+.harrynaut {
+  animation: spaceWalk 60s linear;
+  display: inherit;
+  position: fixed;
+}
+
+@keyframes spaceWalk {
+  0% {width: 5px; left: 0%; top: 30%;}
+  40% {width: 5px; left: 101%; top: 30%;}
+  50% {width: 290px; left: 103%; top: 10%;}
+  100% {width: 290px; left: -30%; top: 10%;}
+}
+

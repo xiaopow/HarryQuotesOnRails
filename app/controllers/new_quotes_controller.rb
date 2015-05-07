@@ -1,0 +1,2 @@
+class NewQuotesController < ApplicationController
+end
